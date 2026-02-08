@@ -36,19 +36,23 @@ portfolio_manager/
 ├── requirements.txt     # Dependencies
 ├── .env                 # API Keys (Not tracked in git)
 └── README.md            # Documentation
+
 ⚙️ Setup & Installation
+
 1. Clone the Repository
 Bash
 git clone [https://github.com/yourusername/ai-portfolio-manager.git](https://github.com/yourusername/ai-portfolio-manager.git)
 cd ai-portfolio-manager
+
 2. Install Dependencies
 Bash
 pip install -r requirements.txt
+
 3. Configure API Keys
 Create a file named .env in the root folder and add your OpenAI API key:
-
 Ini, TOML
 OPENAI_API_KEY=sk-proj-....................
+
 4. Run the Application
 Launch the dashboard locally:
 

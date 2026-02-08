@@ -1,0 +1,32 @@
+# --- Python Internals ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Common names for virtual envs
+env/
+venv/
+.venv/
+.env/
+
+# --- Environment Variables (CRITICAL) ---
+# Never commit your API keys
+.env
+.env.local
+
+# --- Streamlit ---
+# Hides Streamlit secrets (if you use them later)
+.streamlit/secrets.toml
+
+# --- IDE Settings ---
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# --- Operating System Files ---
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
